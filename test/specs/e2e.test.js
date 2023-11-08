@@ -11,5 +11,10 @@ describe("End-to-End Test", () => {
 
     await browser.$('(//div[@class="shelf-item__buy-btn"])[1]').click();
     await percySnapshot(browser, "Add to Cart-1");
+
+    await browser.$('//div[text()="X"]').click();
+
+    await browser.$('(//div[@class="shelf-item__buy-btn"])[2]').click();
+    await percySnapshot(browser, "Add to Cart-2");
   });
 });

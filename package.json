@@ -16,7 +16,7 @@
   "devDependencies": {
     "@percy/cli": "^1.27.3",
     "@percy/webdriverio": "^3.0.1",
-    "@wdio/browserstack-service": "^8.18.2",
+    "@wdio/browserstack-service": "8.19.0",
     "ts-node": "^10.9.1",
     "@wdio/cli": "^7.25.1",
     "@wdio/spec-reporter": "^7.25.4",
